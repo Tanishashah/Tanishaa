@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech ICT-6 Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .timetable {
+            margin: 50px auto;
+            width: 90%;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+        .timetable th, .timetable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .timetable th {
+            background-color: #007BFF;
+            color: white;
+            text-transform: uppercase;
+        }
+        .timetable tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .timetable tr:hover {
+            background-color: #f1f1f1;
+        }
+        .timetable td.time {
+            font-weight: bold;
+        }
+        .break {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 20px;">B.Tech ICT-6 Timetable</h1>
+    <table class="timetable">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time">8:00 - 8:55</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="time">9:00 - 9:55</td>
+                <td>H1H2H3 (20IC316T) F-404, MORO-L</td>
+                <td>H1H2H3 (20IC313T) F-404, JRS-L</td>
+                <td>H1H2H3 (20IC305T) F-404, SASA-L</td>
+                <td></td>
+                <td>H1H2H3 (20IC305T) E202, SASA-L</td>
+            </tr>
+            <tr>
+                <td class="time">10:00 - 10:55</td>
+                <td>H1H2H3 (20IC306T) F-404, NSR-L</td>
+                <td>H1H2H3 (20IC405T) E202, RABH-L</td>
+                <td>H1H2H3 (20IC306T) F-404, NSR-L</td>
+              <td> H1 (20IC316P) E112-113, MSK-P<br>H3 (20IC316P) E112-113, MORO-P<br>H2 (20IC304P) F-204, ABJO-P <td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="break">
+                <td colspan="6">Short Break (10:55 - 11:10)</td>
+            </tr>
+            <tr>
+                <td class="time">11:10 - 12:05</td>
+                <td>H1H2H3 (20IC313P) E214, JRS-P</td>
+                <td>H1H2H3 (22CDC006) E201, CDCT-L</td>
+                <td>H1 (23IC301P) E212, SHIV-P<br>H2 (23IC301P) E212, KAGA-P<br>H3 (20IC304P) F-204, GUTH-P</td>
+                <td>H3 (23IC301P) E212, AYMA-P<br>H2 (20IC316P) E214, MORO-P<br>H1 (20IC304P) F-204, GUTH-P</td>
+                <td>H1H2H3 (20IC304T) E202, ABJO-L</td>
+            </tr>
+            <tr>
+                <td class="time">12:10 - 1:05</td>
+                <td>H1H2H3 (20IC405P) F-204, SASA-P</td>
+                <td>H1H2H3 (20IC304T) E202, ABJO-L</td>
+                <td></td>
+                <td></td>
+                <td>H1H2H3 (20IC304T) E202, ABJO-L</td>
+            </tr>
+            <tr class="break">
+                <td colspan="6">Lunch Break (1:10 - 2:05)</td>
+            </tr>
+            <tr>
+                <td class="time">2:10 - 3:05</td>
+                <td>H1H2H3 (20HS301P) C006, CHSH-P</td>
+                <td>H1H2H3 (20IC305T) E202, SASA-L</td>
+                <td>H1H2H3 (20IC316T) F-404, MORO-L</td>
+                <td>H1H2H3 (20IC304T) E202, ABJO-L</td>
+                <td>H2 (20IC305P) E112-113, SASA-P<br>H1 (20IC305P) E112-113, SOPA-P<br>H3 (20IC305P) E112-113, PST-P</td>
+            </tr>
+            <tr>
+                <td class="time">3:10 - 4:05</td>
+                <td></td>
+                <td>H2 (20IC306P) E112-113, PRAB-P<br>H3 (20IC306P) E112-113, DESA-P<br>H1 (20IC306P) E112-113, NSR-P</td>
+                <td></td>
+                <td>H1H2H3 (20IF201P) OE Room, ICTV1-P</td>
+                <td></td>
+            </tr>
+            <tr class="break">
+                <td colspan="6">Short Break (4:05 - 4:15)</td>
+            </tr>
+            <tr>
+                <td class="time">4:15 - 5:10</td>
+                <td>H1H2H3 (OE-6B) E-303, MAYA-L</td>
+                <td>H1H2H3 (OE-6B) E-303, MAYA-L</td>
+                <td>H1H2H3 (20IF201T) OE Room, ICTV1-L</td>
+                <td></td>
+                <td>H1H2H3 (23IC301T) E204, SHIV-L</td>
+            </tr>
+            <tr>
+                <td class="time">5:15 - 6:10</td>
+                <td>H1H2H3 (OE-6B) E-303, MAYA-L</td>
+                <td>H1H2H3 (22CDC006) E203, CDCT-L</td>
+                <td>H1H2H3 (23IC301T) E204, SHIV-L</td>
+                <td>H1H2H3 (23IC301T) E204, SHIV-L</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
